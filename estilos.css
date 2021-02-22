@@ -1,0 +1,333 @@
+/* Home */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+body {
+    font-family: 'Chicle', cursive;
+}
+    
+
+
+.header   {
+    color:white ;    
+    background-color: #00600f;
+    
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 400%;
+    text-align: center;
+    letter-spacing: 2px;
+    
+    
+}
+
+
+h2 {
+    letter-spacing: 2px;
+}
+
+h3 {
+    letter-spacing: 2px;
+}
+
+
+p {
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80%;
+    line-height: 130%;
+}
+
+
+nav {
+    text-align: center;
+    font-size: 150%;
+    
+}
+
+
+ul li {
+    list-style: none;    
+    display: inline-block;
+    padding: 1% 5%;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.main {
+    color:white;    
+    background-color:#388e3c;
+        
+}
+
+section {
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    padding: 4% 7% 4% 7%;
+}
+
+aside {
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    padding: 4% 7% 4% 7%;
+}
+
+
+.sectionTres {
+    font-family: 'Piedra', cursive;
+}
+
+#grilla {
+    display: grid;
+    grid-template-areas: 
+    "destacados sectionTres"
+    "galeria sectionTres"
+    ;
+    border: 5px solid wheat;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 50% 50%;
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 90%;
+    height: 1200px;
+    justify-content: center;
+    align-content: center;
+    padding: 2%;
+}
+
+section#destacados {
+    grid-area: destacados;
+    justify-items: center;
+    align-items: center;
+    border: 4px solid pink;
+    margin: 4px;
+}
+
+section#galeria {
+    grid-area: galeria;
+    justify-items: center;
+    align-items: center;
+    border: 4px solid pink;
+    margin: 4px;
+}
+
+aside {
+    grid-area: sectionTres;
+    justify-items: center;
+    align-items: center;
+    border: 4px solid pink;
+    margin: 4px;
+}
+
+.carousel-item img{
+    height: 450px;
+}
+
+
+
+
+.footer {
+    color:black ;
+    padding: 10% 0% 10% 0%;
+    text-align: center;
+    background-image: linear-gradient(rgb(0, 999, 0),rgb(4, 110, 57));
+}
+
+.llamame {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1030;
+    width: 80px;
+
+}
+
+
+
+/* Home */
+
+/* Suculentas */
+
+
+
+.tablaPasos {
+    margin: 2% 5% 2% 5%;
+    padding: 2% 5% 2% 5%;
+    
+
+}
+
+.tabla {
+    border-style: solid;
+    border-color: chartreuse;
+    padding: 4px;
+
+}
+
+th {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(12, 12, 12);
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+td {
+    padding: 5%;
+    letter-spacing: 1px;
+}
+
+.listaPasos {
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+
+/* Suculentas */
+
+/* Cactus */
+
+.h1Cactus {
+    padding: 2%;
+}
+
+.mainCactus h1 {
+    font-size: 180%;
+}
+
+.galeriaFotos {
+    margin: 5%;
+    padding: 2%;
+    border: solid black;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.galeriaFotos img {
+    width: 25%;
+    height: auto;
+    border: solid;
+    margin: 2%;
+    transition: all 2s;    
+}
+
+.galeriaFotos img:hover {
+    width: 250px;
+}
+
+
+
+/* Cactus */
+
+/* Insumos */
+
+.cajaInsumos {
+    width: 90%;
+    height: 120vh;
+    background-color: darkslategray;
+    margin: 2% 5% 5% 5%;
+    padding: 2%;
+    border: darkorange;
+    border-style: ridge;
+    border-width: 4px;
+    text-align: center;
+        
+}
+
+
+.cajaMacetas {
+    width: 80%;
+    height: 50vh;
+    background-color: brown;
+    margin: 2% 5% 5% 5%;
+    border: white;
+    border-style: ridge;
+    border-width: 2px;
+    text-align: center;
+    
+}
+
+.cajaTierra {
+    width: 80%;
+    height: 50vh;
+    background-color: darkslateblue;
+    margin: 5% 5% 5% 5%;
+    border: white;
+    border-style: ridge;
+    border-width: 2px;
+        
+}
+
+
+/* Insumos */
+
+/* contacto */
+
+.mainContacto {
+    /* width: 100%; */
+   /*  height: 100%; */
+    background-position-y: center;
+    background-image: url(./imagenes/Suculenta1.JPG);
+    background-size: cover;
+}
+
+label {
+    display: block;
+}
+
+.estadoCivil {
+    padding: 3% 0% 3% 0%;
+}
+
+.news {
+    padding: 0% 0% 3% 0%;
+}
+
+.botonesContacto {
+    display: block;
+}
+
+form {
+    padding-top: 5%;
+    /* margin-left: 5%; */
+}
+
+/* .form-control {
+    height: 100px;
+    width: 400px;
+} */
+
+iframe {   
+    background-color: tomato;
+    margin: 10% 0% 10% 0%;
+    padding: 1% 1% 1% 1%;
+    width: 100%;
+    height: 450px;
+    
+}
+
+
+/* contacto */
+
+
